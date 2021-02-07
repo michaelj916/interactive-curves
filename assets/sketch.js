@@ -9,10 +9,10 @@ function setup() {
 }
  
 function rand() {
-  fX = floor(random(1, 100))
-  fY = floor(random(1, 100))
-  mX = floor(random(1, 100))
-  mY = floor(random(1, 100))
+  fX = floor(random(6000, 10000))
+  fY = floor(random(6000, 10000))
+  mX = floor(random(6000, 10000))
+  mY = floor(random(6000, 10000))
 }
 
 function addVert(i) {
@@ -29,7 +29,7 @@ function draw() {
 
   translate(width / 2, height / 2)
   beginShape()
-  fill(255)
+  fill('#e6eaf9')
   addVert(i)
   for (i; i < TWO_PI; i += TWO_PI / 180) {
     addVert(i)
