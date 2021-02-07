@@ -1,0 +1,19 @@
+body {
+    font-family: monospace;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+canvas {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    border: 1px solid #000;
+}
+
+#info {
+    font-size: 14px;
+    position: fixed;
+    bottom: 25px;
+    left: 20px;
+}
